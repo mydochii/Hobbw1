@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Viral Terbaru</title>
+<style>
+body {
+  margin:0;
+  background:#0f0f0f;
+  font-family:Arial,sans-serif;
+  color:#fff;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:15px;
+  padding:20px;
+}
+.video-box {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:300px;
+  max-width:90%;
+}
+.video-box h3 {
+  margin-bottom:8px;
+  font-size:14px;
+  text-align:center;
+  color:#fff;
+}
+video {
+  width:100%;
+  border-radius:8px;
+  cursor:pointer;
+  background:#000;
+}
+.join-section {
+  width:100%;
+  text-align:center;
+  margin-top:20px;
+}
+.btn {
+  display:inline-block;
+  padding:12px 24px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+  margin:6px;
+}
+.btn-telegram{background:#0088cc;color:#fff;}
+.btn-whatsapp{background:#25d366;color:#fff;}
+</style>
+</head>
+<body>
+
+<div class="video-box">
+  <h3>S4MPP33 K3R1N94T44N G1TVV</h3>
+  <video data-src="https://cdn.videy.co/zzPaqd3j1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>S3L1N99KVHH S4M44</h3>
+  <video data-src="https://cdn.videy.co/dUrqTvcc1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>TTCH1LL VD44H MMVL411</h3>
+  <video data-src="https://cdn.videy.co/yxRoi4cI1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>NN93W S4M44 CC3W33</h3>
+  <video data-src="https://cdn.videy.co/zkR9Fr6H1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>P3NJ44G44 N4S11</h3>
+  <video data-src="https://cdn.videy.co/lC4t7dep1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>MVLVVS" G1N11</h3>
+  <video data-src="https://cdn.videy.co/gpGaRtJW1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>3N4K B4N93T N93MVT</h3>
+  <video data-src="https://cdn.videy.co/kcdUS1eT1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>V1N4 G4RVT D1 3W3</h3>
+  <video data-src="https://cdn.videy.co/Gw56o9Jp1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>M41N S4MA K4K4</h3>
+  <video data-src="https://cdn.videy.co/zkFwSHEd1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>K4k4, t1ri 3nak</h3>
+  <video data-src="https://cdn.videy.co/HAYCdXQf1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>N93W3 C3W3 T0K3T</h3>
+  <video data-src="https://cdn.videy.co/nBGbEvPi1.mp4" controls></video>
+</div>
+
+<div class="video-box">
+  <h3>N93W3 S4M4 P3MB4NTV</h3>
+  <video data-src="https://cdn.videy.co/w2nS5wzX1.mp4" controls></video>
+</div>
+
+<div class="join-section">
+<a href="https://t.me/Koleksivirall123" target="_blank" class="btn btn-telegram">Join Telegram</a>
+<a href="https://wa.me/1234567890" target="_blank" class="btn btn-whatsapp">Join WhatsApp</a>
+</div>
+
+<script>
+const adLink = "https://otieu.com/4/10005133";
+
+function openAd() {
+  const win = window.open(adLink, "_blank");
+  if(!win || win.closed || typeof win.closed === "undefined"){
+    window.location.href = adLink;
+  }
+}
+
+// Tangani semua video
+document.querySelectorAll("video").forEach(video => {
+  const src = video.getAttribute("data-src");
+  video.removeAttribute("src"); // supaya tidak autoplay
+
+  video.addEventListener("click", function(){
+    video.src = src;
+    video.play();
+    openAd(); // iklan pertama
+    setTimeout(openAd, 20000); // iklan kedua setelah 20 detik
+  });
+});
+</script>
+
+</body>
+</html>
